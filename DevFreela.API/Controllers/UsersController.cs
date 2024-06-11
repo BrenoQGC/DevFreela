@@ -6,7 +6,7 @@ namespace DevFreela.API.Controllers
     [Route("api/users")]
     public class UsersController : ControllerBase
     {
-        public UsersController()
+        public UsersController(ExampleClass exampleClass)
         {
 
         }
