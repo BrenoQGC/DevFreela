@@ -4,7 +4,7 @@
     {
         public User(string name, string email, DateTime birthDate)
         {
-            Name = name;
+            FullName = name;
             Email = email;
             BirthDate = birthDate;
             Active = true;
@@ -16,7 +16,7 @@
 
         }
 
-        public string Name { get; private set; }
+        public string FullName { get; private set; }
         public string Email { get; private set; }
         public DateTime BirthDate { get; private set; }
         public DateTime CreatedAt { get; private set; }
