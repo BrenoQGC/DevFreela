@@ -1,6 +1,6 @@
-@DevFreela.API_HostAddress = http://localhost:5293
+# @DevFreela.API_HostAddress = http://localhost:5293
 
-GET {{DevFreela.API_HostAddress}}/weatherforecast/
-Accept: application/json
+# GET {{DevFreela.API_HostAddress}}/weatherforecast/
+# Accept: application/json
 
-###
+# ###
