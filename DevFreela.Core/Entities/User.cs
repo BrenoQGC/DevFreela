@@ -2,6 +2,7 @@
 {
     public class User : BaseEntity
     {
+        private User() { }
         public User(string name, string email, DateTime birthDate)
         {
             FullName = name;
@@ -13,6 +14,7 @@
             Skills = new List<UserSkill>();
             OwnedProjects = new List<Project>();
             FreelanceProjects = new List<Project>();
+            Comments = new List<ProjectComment>();
 
         }
 

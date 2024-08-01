@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 
 namespace DevFreela.Infrastructure.Persistence.Configurations
 {
-    internal class ProjectConfigurations : IEntityTypeConfiguration<Project>
+    public class ProjectConfigurations : IEntityTypeConfiguration<Project>
     {
         public void Configure(EntityTypeBuilder<Project> builder)
         {

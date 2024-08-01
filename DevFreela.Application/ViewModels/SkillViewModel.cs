@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace DevFreela.Application.ViewModels
 {
-    internal class SkillViewModel
+    public class SkillViewModel
     {
         public SkillViewModel(int id, string description)
         {

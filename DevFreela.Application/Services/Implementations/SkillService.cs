@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 
 namespace DevFreela.Application.Services.Implementations
 {
-    internal class SkillService : ISkillServices
+    public class SkillService : ISkillService
     {
         private readonly DevFreelaDbContext _dbContext;
         public SkillService(DevFreelaDbContext dbContext)

@@ -2,7 +2,7 @@
 
 namespace DevFreela.Application.Services.Interfaces
 {
-    internal interface ISkillServices
+    public interface ISkillService
     {
         List<SkillViewModel> GetAll();
     }

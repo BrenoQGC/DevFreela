@@ -1,6 +1,6 @@
 ﻿namespace DevFreela.Core.Repositories
 {
-    internal interface IProjectRepository
+    public interface IProjectRepository
     {
     }
 }
